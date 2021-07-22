@@ -8,4 +8,6 @@ Starter Kit with Kirby CMS
 
 ### WIP: New version
 
-Quick start of the project with [Kirby CMS](https://getkirby.com/), [Mix](https://laravel-mix.com/) from [White Russian Studio](https://whiterussian.studio/)
+Quick start of the project with [Kirby CMS](https://getkirby.com/), [Mix](https://laravel-mix.com/) 
+
+Проект написаный в сотрудничестве с [White Russian Studio](https://whiterussian.studio/)
