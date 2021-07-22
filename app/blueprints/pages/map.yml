@@ -1,0 +1,41 @@
+title: Карта
+
+fields:
+  headline:
+    label: Заголовок
+    type: writer
+    required: true
+    inline: true
+  caption:
+    label: Подпись
+    type: writer
+    required: true
+    inline: true
+  cities:
+    label: Города
+    type: structure
+    fields:
+      title:
+        label: Город
+        type: text
+      center_lat:
+        label: Центр LAT
+        type: text
+        width: 1/2
+      center_lng:
+        label: Центр LNG
+        type: text
+        width: 1/2
+      info:
+        label: Информация
+        type: info
+        theme: positive
+        text: |
+          Для отрисовки области используется сервис https://geojson.io/.
+          Сохраните файл в формате .geojson и загрузите в панель.
+      geojson:
+        label: GEOJson
+        type: files
+        multiple: false
+        accept: true
+        requred: true

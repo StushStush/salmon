@@ -1,0 +1,27 @@
+title:
+  en: Site
+  ru: Сайт
+
+tabs:
+  content:
+    label:
+      en: Content
+      ru: Контент
+    sections:
+      blocks:
+        headline: Блоки
+        type: pages
+        status: all
+        info: "{{ page.intendedTemplate }}"
+        image: false
+        sortable: false
+        templates:
+          - hero
+          - delivery
+          - menu
+          - app
+          - map
+          - footer
+  settings: tabs/settings
+  vendors: tabs/vendors
+  seo: tabs/seo

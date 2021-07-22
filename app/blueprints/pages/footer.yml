@@ -1,0 +1,40 @@
+title: Футер
+
+fields:
+  headline:
+    label: Заголовок
+    type: writer
+    required: true
+  caption:
+    label: Подпись
+    type: writer
+    required: true
+  vk:
+    label: Вконтакте
+    type: url
+    width: 1/3
+  ig:
+    label: Инстаграм
+    type: url
+    width: 1/3
+  fb:
+    label: Фейсбук
+    type: url
+    width: 1/3
+  contacts:
+    label: Контакты
+    type: structure
+    max: 2
+    fields:
+      title:
+        label: Заголовок
+        type: writer
+        inline: true
+      name:
+        label: Имя
+        type: text
+        width: 1/2
+      email:
+        label: Email
+        type: email
+        width: 1/2

@@ -1,0 +1,12 @@
+label:
+  en: Settings
+  ru: Настройки
+fields:
+  appstore_link:
+    label: App Store
+    type: url
+    width: 1/2
+  googlepay_link:
+    label: Google Play
+    type: url
+    width: 1/2

@@ -1,0 +1,24 @@
+title: Первый экран
+
+fields:
+  headline:
+    label: Заголовок
+    type: writer
+    inline: true
+    required: true
+  caption:
+    label: Подпись
+    type: writer
+    inline: true
+    required: true
+  hero_videos:
+    label: Видео
+    type: structure
+    fields:
+      label:
+        label: Лейбл
+        type: text
+      src:
+        label: Видео
+        type: files
+        multiple: false

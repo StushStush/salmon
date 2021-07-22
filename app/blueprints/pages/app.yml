@@ -1,0 +1,18 @@
+title: Приложение
+
+fields:
+  headline:
+    label: Заголовок
+    type: writer
+    inline: true
+    required: true
+  caption:
+    label: Подпись
+    type: writer
+    inline: true
+    required: true
+  video:
+    label: Видео
+    type: files
+    multiple: false
+    required: true

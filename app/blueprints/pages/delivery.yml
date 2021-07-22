@@ -1,0 +1,21 @@
+title: Доставка
+
+fields:
+  headline:
+    label: Заголовок
+    type: writer
+    required: true
+    inline: true
+  caption:
+    label: Подпись
+    type: writer
+    required: true
+    inline: true
+  img:
+    label: Изображение
+    type: files
+    multiple: false
+  img_xs:
+    label: Изображение в мобильном
+    type: files
+    multiple: false

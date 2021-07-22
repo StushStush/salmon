@@ -1,0 +1,34 @@
+title: Меню
+
+fields:
+  headline:
+    label: Заголовок
+    type: writer
+    inline: true
+    required: true
+  items:
+    label: Меню
+    type: structure
+    required: true
+    fields:
+      headline:
+        label: Заголовок
+        type: writer
+        inline: true
+        required: true
+      dishes:
+        label: Блюда
+        type: structure
+        required: true
+        min: 4
+        max: 4
+        fields:
+          headline:
+            label: Заголовок
+            type: writer
+            inline: true
+            required: true
+          img:
+            label: Изображение
+            type: files
+            multiple: false
